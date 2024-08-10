@@ -1,5 +1,5 @@
 # udacity-tweets-app
-O
+
 This is a simple tweeter like application server.
 
 ***
@@ -62,3 +62,6 @@ curl --location 'http://localhost:8080/images' \
 --form 'file=@"./puppy.jpeg"'                
 {"url":"https://udacity-tweets-bucket.s3.us-east-1.amazonaws.com/1684421206489_file_puppy.jpeg"}     
 ```
+EB_URL = http://exercise-5-elastic-beanstalk-dev222.us-east-1.elasticbeanstalk.com
+
+TEST = http://exercise-5-elastic-beanstalk-dev222.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://upload.wikimedia.org/wikipedia/commons/b/bd/Golden_tabby_and_white_kitten_n01.jpg
